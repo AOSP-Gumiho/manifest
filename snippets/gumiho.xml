@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- GitHub -->
+  <remote  name="github"
+           fetch="https://github.com" />
+   
+  <!-- Gitlab -->
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- Github [Gumiho] -->
+  <remote  name="gumiho"
+           fetch="https://github.com/AOSP-Gumiho"
+           revision="refs/heads/thirteen" />
+
+  <!-- Remove repos -->
+  <remove-project name="LinegaeOS/android_frameworks_av" />
+  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="LineageOS/android_packages_apps_Settings" />
+  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="LineageOS/android_vendor_lineage" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/av" name="AOSP-Gumiho/frameworks_av" groups="pdk" revision="thirteen" />
+  <project path="frameworks/base" name="AOSP-Gumiho/frameworks_base" groups="pdk-cw-fs,pdk-fs" revision="thirteen" />
+
+  <!-- Packages --> 
+  <project path="packages/apps/Settings" name="AOSP-Gumiho/packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
+   
+  <!-- Vendor --> 
+  <project path="vendor/lineage" name="AOSP-Gumiho/vendor_gumiho" revision="thirteen" /> 
+
+  <!-- External --> 
+  <project path="system/core" name="AOSP-Gumiho/system_core" groups="pdk" revision="thirteen" /
+  
