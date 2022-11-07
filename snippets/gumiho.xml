@@ -26,6 +26,7 @@
 
   <!-- Packages --> 
   <project path="packages/apps/Settings" name="AOSP-Gumiho/packages_apps_Settings" groups="pdk-fs" revision="thirteen" />
+  <project path="packages/apps/GameSpace" name="AOSP-Gumiho/packages_apps_GameSpace" revision="thirteen" /> 
    
   <!-- Vendor --> 
   <project path="vendor/lineage" name="AOSP-Gumiho/vendor_gumiho" revision="thirteen" /> 
