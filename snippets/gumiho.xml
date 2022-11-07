@@ -18,7 +18,6 @@
   <remove-project name="LinegaeOS/android_frameworks_av" />
   <remove-project name="LineageOS/android_frameworks_base" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
-  <remove-project name="LineageOS/android_system_core" />
   <remove-project name="LineageOS/android_vendor_lineage" />
 
   <!-- Frameworks -->
@@ -30,9 +29,6 @@
    
   <!-- Vendor --> 
   <project path="vendor/lineage" name="AOSP-Gumiho/vendor_gumiho" revision="thirteen" /> 
-
-  <!-- External --> 
-  <project path="system/core" name="AOSP-Gumiho/system_core" groups="pdk" revision="thirteen" /
 
   <!-- Repos --> 
   <project path="build/make" name="build" remote="gumiho" >
